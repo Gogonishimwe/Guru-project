@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-registration;user-register-on-gurudemo-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User register on GURUDEMO Website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "A user navigate to visit here link",
+            "match": {
+              "location": "stepDefinitions\\registration.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11355391600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user enter the email as \"hofasi1308@lapeds.com\"",
+            "match": {
+              "location": "stepDefinitions\\registration.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386434100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on submit button",
+            "match": {
+              "location": "stepDefinitions\\registration.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4233905300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should receive confirmation table for credentials",
+            "match": {
+              "location": "stepDefinitions\\registration.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536816399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User registration",
+    "tags": [],
+    "uri": "features\\userRegistration.feature"
+  }
+]

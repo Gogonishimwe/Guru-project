@@ -9,10 +9,10 @@
 module.exports = {
   default: {
       require: [
-          'stepDefinitions/*.js', // Path to your step definitions
-          'support/**/*.js' // Path to your support files (optional)
+          'stepDefinitions/*.js',
+          'support/**/*.js' 
       ],
       format: ['progress', 'json:reports/cucumber-report.json'],
-      paths: ['features/userRegistration.feature'] // Path to your feature files
+      paths: ['features/upload.feature'] 
   }
 };
